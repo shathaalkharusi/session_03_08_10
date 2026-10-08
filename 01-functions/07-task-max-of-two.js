@@ -6,7 +6,11 @@
 // The checks at the bottom print ✅ when your function is correct.
 
 function maxOfTwo(a, b) {
-  // your code here
+  if ( a> b){
+    return a;
+  }else {
+    return b;
+  }
 }
 
 // ----- Checks (do not edit) -----

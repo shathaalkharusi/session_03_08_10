@@ -7,11 +7,16 @@
 // The checks at the bottom print ✅ when your function is correct.
 
 function maxOfTwo(a, b) {
-  // your code here
+  if (a > b){
+    return a;
+  }else {
+    return b;
+  }
 }
 
 function maxOfThree(a, b, c) {
-  // your code here
+  let maxAB = maxOfTwo(a,b);
+  return maxOfTwo(maxAB, c);
 }
 
 // ----- Checks (do not edit) -----

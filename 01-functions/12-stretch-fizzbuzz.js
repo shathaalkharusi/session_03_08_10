@@ -10,7 +10,15 @@
 // The checks at the bottom print ✅ when your function is correct.
 
 function fizzBuzz(n) {
-  // your code here
+  if (n % 3 ===0 && n % 5 ===0){
+    return " FizzBuzz ";
+  }else if (n % 3 === 0){
+    return "Fizz";
+  }else if (n % 5 === 0){
+    return " Buzz";
+  } else {
+    return `&{n}`;
+  }
 }
 
 // ----- Checks (do not edit) -----

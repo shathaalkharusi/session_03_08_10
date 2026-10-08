@@ -7,7 +7,11 @@
 // The checks at the bottom print ✅ when your function is correct.
 
 function isEven(n) {
-  // your code here
+    if (n% 2 ===0){
+      return true;
+  } else {
+    return false;
+  }
 }
 
 // ----- Checks (do not edit) -----
